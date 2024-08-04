@@ -23,7 +23,7 @@ public class SistemaQuizBackendApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Usuario	usuario = new Usuario();
+		/* Usuario	usuario = new Usuario();
 		usuario.setNombre("Ivan");
 		usuario.setApellido("Alvarez");
 		usuario.setPassword("12345");
@@ -43,5 +43,7 @@ public class SistemaQuizBackendApplication implements CommandLineRunner {
 
 		Usuario usuarioGuardado = usuarioService.guardarUsuario(usuario, usuarioRoles);
 		System.out.println(usuarioGuardado.getUsername());
+
+		 */
 	}
 }

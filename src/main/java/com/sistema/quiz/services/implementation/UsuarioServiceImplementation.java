@@ -38,11 +38,11 @@ public class UsuarioServiceImplementation implements UsuarioService {
 
     @Override
     public Usuario obtenerUsuario(String username) {
-        return null;
+        return usuarioRepository.findByUsername(username);
     }
 
     @Override
     public void eliminarUsuario(Long usuarioId) {
-
+        usuarioRepository.deleteById(usuarioId);
     }
 }
